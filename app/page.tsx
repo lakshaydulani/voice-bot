@@ -30,7 +30,7 @@ export default function Home() {
   const voiceClient = new RTVIClient({
     transport: new DailyTransport(),
     params: {
-      baseUrl: "http://localhost:7860", //process.env.NEXT_PUBLIC_BASE_URL || "/api",
+      baseUrl: "https://pipecatbe-ayesaxdxdrfqcvet.canadacentral-01.azurewebsites.net",//"http://localhost:7860", //process.env.NEXT_PUBLIC_BASE_URL || "/api",
       requestData: {
         services: defaultServices,
         config: defaultConfig,
