@@ -189,7 +189,7 @@ export const ConfigSelect: React.FC<ConfigSelectProps> = ({
           handleClose={() => setshowPrompt(false)}
         />
       </dialog>
-      <div className="flex flex-col flex-wrap gap-4">
+      {/* <div className="flex flex-col flex-wrap gap-4">
         <Field label="Language" error={false}>
           <Select
             onChange={(e) => {
@@ -335,8 +335,8 @@ export const ConfigSelect: React.FC<ConfigSelectProps> = ({
               />
             </AccordionContent>
           </AccordionItem>
-        </Accordion>
-      </div>
+        </Accordion> 
+      </div>*/}
     </>
   );
 };
