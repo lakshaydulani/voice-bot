@@ -16,6 +16,8 @@ import {
 } from "@/rtvi.config";
 
 export default function Home() {
+  if (typeof window === 'undefined') return null;
+
   // const [showSplash, setShowSplash] = useState(true);
   const voiceClientRef = useRef<RTVIClient | null>(null);
 
